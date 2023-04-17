@@ -1,0 +1,17 @@
+.card-head h3{
+font-family:fantasy;
+}
+.card-head{
+    height: 100%;
+    width: 100%;
+}
+button:hover{
+background:transparent !important;
+border-color: hsla(0, 0%, 100%, 0.75);
+color: white !important;
+}
+@media only screen and (min-width: 400px) and (max-width: 992px){
+    .card-head{
+        width: 400px;
+    }
+}
